@@ -1,0 +1,134 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-width: 320px;
+}
+.convert {
+  width: 90%;
+  max-width: 717px;
+  background-color: #2e0039;
+  border-radius: 21px;
+  margin-top: 21px;
+  color: #ffffff;
+}
+.convertResponsive {
+  display: flex;
+  flex-direction: column;
+}
+.pConvert {
+  font-weight: 600;
+  font-size: 24px;
+}
+.saved {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 717px;
+  border-radius: 21px;
+}
+.pBody {
+  font-weight: 700;
+  font-size: 16px;
+  color: #676767;
+}
+.select {
+  background-color: #2e0039;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+  width: 261px;
+}
+.opcion {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.botonInversa {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.botonCorazon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.inputConvert {
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  background-color: transparent;
+  width: 261px;
+  color: #ffffff;
+  text-align: right;
+}
+
+.divCorazon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 295px;
+}
+.divResultado {
+  display: flex;
+  gap: 10px;
+}
+.contenido {
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.liStyle {
+  display: flex;
+  align-items: center;
+  height: 38px;
+  width: 100%;
+  background-color: #e3e3e3;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #676767;
+  justify-content: space-between;
+}
+.pLi {
+  margin-left: 10px;
+}
+.ulStyle {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 10px;
+}
+.eliminar {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .convertResponsive {
+    display: flex;
+    flex-direction: row;
+  }
+  .divCorazon {
+    max-width: 600px;
+  }
+  .ulStyle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+  }
+  .liStyle {
+    width: 48%;
+  }
+}
