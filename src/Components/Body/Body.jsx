@@ -7,12 +7,6 @@ function Body() {
   const [selectResultado, setselectResultado] = useState("");
   const [cantidad, setCantidad] = useState("");
   const [lista, setLista] = useState([]);
-  // const [nuevoSelectConversion, setNuevoSelectConversion] =
-  //   useState(selectConversion);
-
-  // useEffect(() => {
-  //   setCantidad("");
-  // }, [selectConversion]);
 
   useEffect(() => {
     resultadoConversion();
